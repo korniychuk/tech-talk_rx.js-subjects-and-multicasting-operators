@@ -1,7 +1,10 @@
 {
-  "name": "rx-js-multicasting",
+  "name": "tech-talk_rx.js-subjects-and-multicasting-operators",
   "version": "1.0.0",
-  "description": "",
+  "description": "Examples for TechTalk - RxJS Subject's & Multicasting operators",
+  "author": "Anton Korniychuk <dev@korniychuk.pro>",
+  "license": "MIT",
+
   "main": "index.js",
   "directories": {
     "example": "examples"
@@ -10,8 +13,6 @@
     "nodemon": "nodemon -e ts --watch examples --exec \"ts-node\"",
     "start": "npm run nodemon"
   },
-  "author": "Anton Korniychuk <dev@korniychuk.pro>",
-  "license": "ISC",
   "dependencies": {
     "rxjs": "~6.3.2",
     "colors.js": "~1.2.4"
