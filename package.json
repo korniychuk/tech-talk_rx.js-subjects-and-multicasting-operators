@@ -1,0 +1,25 @@
+{
+  "name": "rx-js-multicasting",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "example": "examples"
+  },
+  "scripts": {
+    "nodemon": "nodemon -e ts --watch examples --exec \"ts-node\"",
+    "start": "npm run nodemon"
+  },
+  "author": "Anton Korniychuk <dev@korniychuk.pro>",
+  "license": "ISC",
+  "dependencies": {
+    "rxjs": "~6.3.2",
+    "colors.js": "~1.2.4"
+  },
+  "devDependencies": {
+    "@types/colors": "~1.2.1",
+    "typescript": "~3.0.3",
+    "ts-node": "~7.0.1",
+    "nodemon": "~1.18.4"
+  }
+}
