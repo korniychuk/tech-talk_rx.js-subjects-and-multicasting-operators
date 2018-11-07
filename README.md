@@ -22,7 +22,21 @@ Subject'ы невероятно полезны и необходимы. Но к�
 
 В этом TechTalk'е мы углубляемся в RxJS Subject'ы и multicasting операторы. Вы получите четкое представление о том, когда, где и как использовать эти мощные инструменты.
 
-**Таймлайн TechTalk'а:**
+**Subject's Summary:**
+```
+Subject:         replays nothing
+ReplaySubject:   replays many, before or after completion
+BehaviorSubject: replays one, only before completion
+AsyncSubject:    replays one, only if completed
+```
+
+**Multicasting Summary:**
+![Multicasting Summary (ru) by Anton Korniychuk](/images/multicast.png)
+
+**.multicast() shortcuts Summary:**
+![.multicast() shortcuts Summary (ru) by Anton Korniychuk](/images/aliases.png)
+
+**Timeline of the TechTalk:**
 ```
 00:00:00 00.   Введение. Для чего вам этот доклад? 
 00:02:35 01.   Важно уяснить. Каждый .subscribe() вызывает выполнение всей цепочки.
