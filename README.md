@@ -36,7 +36,7 @@ AsyncSubject:    replays one, only if completed
 **.multicast() shortcuts Summary:**
 ![.multicast() shortcuts Summary (ru) by Anton Korniychuk](/images/aliases.png)
 
-**Timeline of the TechTalk:**
+**Timeline of the TechTalk** (ru)**:**
 ```
 00:00:00 00.   Введение. Для чего вам этот доклад? 
 00:02:35 01.   Важно уяснить. Каждый .subscribe() вызывает выполнение всей цепочки.
