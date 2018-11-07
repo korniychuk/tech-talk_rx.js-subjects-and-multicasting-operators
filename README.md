@@ -16,6 +16,12 @@ npm start ./examples/1.ts
 
 **Description:**
 
+RxJS Subjects are a source of confusion for many people using RxJS. For many, the Subject is the obvious and only answer to every problem. Subjects are incredibly useful and necessary, but the key is to know when to use them for solving specific problems that you encounter.
+
+In this course, we are going deep into RxJS Subjects and multicasting operators. You'll gain a solid understanding of when, where, and how to use these powerful tools.
+
+**Description (ru):**
+
 RxJS Subject'ы стали источником путаницы и недопонимания для многих людей использующих RxJS. В то же время для тех для кто в них разобрался эти самые Subject'ы являются ответом на любой вопрос.
 
 Subject'ы невероятно полезны и необходимы. Но ключ заключается в том что бы знать когда и какие использовать Subject'ы для решения проблем с которыми вы сталкиваетесь.
